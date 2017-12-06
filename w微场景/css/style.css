@@ -31,7 +31,8 @@ body {
 }
 /*s1 第一屏的样式*/
 .s1{
-    background:url("../img/bj.png")
+    background:url("../img/bj.png");
+    height: 100%;
 
 }
 .s1 head img{
@@ -67,10 +68,26 @@ body {
 
 .s1 .header img:nth-of-type(5) {
     width:70%;
+    position: absolute;
     left:50%;
     top:25%;
+    margin-left:-35%;
+}
+/*第一屏文字部分*/
+.s1 .main{
+    position:absolute;
+    top:30%
 
+}
+.s1main img:nth-of-type(1){
+    width: 40%;
+}
+.s1 .main img:nth-of-type(2){
+    width: 80%;
 
+}
+.s1 .main p{
+    color:#fff;
 }
 
 
