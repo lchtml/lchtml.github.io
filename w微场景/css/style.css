@@ -35,7 +35,7 @@ body {
 
 }
 /*s1 第一屏的样式*/
-.s1,.s2{
+.s1,.s2,.s3{
     background:url("../img/bj.png");
     height: 100%;
 
@@ -228,5 +228,95 @@ left: 50%;
 margin-left: -60px;
 }
 
+#mp3Btn {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 100;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    border: 4px solid #292929;
+    text-align: center;
+    line-height: 47px;
+    cursor: pointer;
+    transform: rotateZ(0deg);
+    animation: mp3key 4s infinite linear running;
+    /*一直执行*/
+    /*animation-iteration-count: infinite;*/
+    /*匀速执行*/
+    /*animation-timing-function:linear;*/
+    /*默认运行动画*/
+    /*animation-play-state:running;*/
+}
+
+@keyframes mp3key {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+#mp3Btn img {
+    width: 15px;
+}
 
 
+/*第三屏样式*/
+
+.s3{
+    color: #00f8ca;
+}
+.s3 h2{
+    font-size: 26px;
+    position: relative;
+    top:12%;
+}
+.s3 small{
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.s3 h2::after,.s3 h2::before{
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+.s3 h2::after{
+    background: url("../img/13.png");
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top:0;
+}
+.s3 h2::before{
+    background: url("../img/14.png");
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+.s3 p{
+    font-weight :bold;
+}
+.s3.p4{
+    background:url("../img/da.png");
+    width: 136px;
+    height:136px;
+    font-size:30px;
+    line-height:60px;
+    background-size: contain;
+}
+.s3 .p1,.p2,.p3,.p5,.p6,.p7{
+    background:url("../img/xiao.png");
+    width: 62px;
+    height: 62px;
+    font-size: 20px;
+    line-height:60px;;
+    background-size: contain;
+}

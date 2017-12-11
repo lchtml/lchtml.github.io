@@ -22,6 +22,18 @@ var swiper = new Swiper('.swiper-container', {
         }
     }
 });
+var mp3 = document.querySelector("#mp3");
+var mp3Bnt =document.querySelector("#mp3Btn");
+
+mp3Bnt.onclick =function (){
+    if(mp3.paused){
+         mp3Bnt.style.animationPlayState ="running";
+        mp3.play();
+    }else{
+        mp3Btn.style.animationplaystate ="paused";
+        mp3.pause();
+    }
+}
 
 
 
