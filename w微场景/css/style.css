@@ -304,12 +304,15 @@ margin-left: -60px;
 .s3 p{
     font-weight :bold;
 }
-.s3.p4{
+.p4{
+    position:absolute;
+    top:42%;
+    left:33%;
     background:url("../img/da.png");
-    width: 136px;
-    height:136px;
+    width:130px;
+    height:130px;
     font-size:30px;
-    line-height:60px;
+    line-height:126px;
     background-size: contain;
 }
 .s3 .p1,.p2,.p3,.p5,.p6,.p7{
@@ -319,4 +322,54 @@ margin-left: -60px;
     font-size: 20px;
     line-height:60px;;
     background-size: contain;
+}
+.p1{
+    position: absolute;
+    top: 30%;
+    left:23%;
+}
+.p2{
+    position: absolute;
+    top: 30%;
+    left: 61%;
+}
+.p3{
+    position: absolute;
+    top: 47%;
+    left: 7%;
+}
+.p5{
+    position: absolute;
+    top: 47%;
+    left: 77%;
+}
+.p6{
+    position: absolute;
+    top: 66%;
+    left: 21%;
+}
+.p7{
+    position: absolute;
+    top: 66%;
+    left: 59%;
+}
+
+.p8{font-weight:normal;
+    position:absolute;
+    font-size: 14px;
+    top: 82%;
+    left: 18%;
+}
+.p9{font-weight:normal;
+    position: absolute;
+    font-size: 14px;
+    top: 85%;
+    left: 18%;
+}
+.xian{
+    border-left:2px solid #00f8ca;
+    height: 40px;
+    position: absolute;
+    top: 82%;
+    left: 12%;
 }
