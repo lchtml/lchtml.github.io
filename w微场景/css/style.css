@@ -35,7 +35,7 @@ body {
 
 }
 /*s1 第一屏的样式*/
-.s1,.s2,.s3,.s4{
+.s1,.s2,.s3,.s4,.s5{
     background:url("../img/bj.png");
     height: 100%;
 
@@ -517,4 +517,51 @@ margin-left: -60px;
     top:76%;
     left:10%;
     width:300px;
+}
+
+.s5{
+    color: #00f8ca;
+}
+.s5 h2{
+    font-size: 26px;
+    position: relative;
+    top:12%;
+}
+.s5 small{
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.s5 h2::after,
+.s5 h2::before{
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+.s5 h2::after{
+    background: url("../img/13.png");
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top:0;
+}
+.s5 h2::before{
+    background: url("../img/14.png");
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+.smain1 img{
+    width: 141px;
+    height: 176px;
+
+}
+.smain1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
 }
