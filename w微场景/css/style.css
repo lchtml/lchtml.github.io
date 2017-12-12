@@ -35,7 +35,7 @@ body {
 
 }
 /*s1 第一屏的样式*/
-.s1,.s2,.s3{
+.s1,.s2,.s3,.s4{
     background:url("../img/bj.png");
     height: 100%;
 
@@ -259,6 +259,13 @@ margin-left: -60px;
         transform: rotateZ(360deg);
     }
 }
+.swiper-button-next {
+    left: 50%;
+    right: auto;
+    top: auto;
+    bottom: 5%;
+    margin-left: -13.5px;
+    transform: rotateZ(-90deg);}
 
 #mp3Btn img {
     width: 15px;
@@ -372,4 +379,131 @@ margin-left: -60px;
     position: absolute;
     top: 82%;
     left: 12%;
+}
+.s4{
+    color: #00f8ca;
+}
+.s4 h2{
+    font-size: 26px;
+    position: relative;
+    top:12%;
+}
+.s4 small{
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.s4 h2::after,
+.s4 h2::before{
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+.s4 h2::after{
+    background: url("../img/13.png");
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top:0;
+}
+.s4 h2::before{
+    background: url("../img/14.png");
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+.t1{
+    width: 310px;
+    height: 400px;
+    position: absolute;
+    top:25%;
+    left:9%;
+}
+.t2 img,.t3 img{
+    width:45px;
+    height:45px;
+}
+.t2{
+    width: 100px;
+    height: 45px;
+
+    position:absolute;
+    top: 26%;
+    left: 23%;
+
+}
+.t2 img{
+    margin-left:-71%;
+}
+.t2 p{
+    margin-top: -40%;
+    margin-left: 23%;
+}
+.t3{
+    width: 100px;
+    height: 45px;
+    position:absolute;
+    top: 26%;
+    left: 57%;
+}
+.t3 img{
+    margin-left:-71%;
+}
+.t3 p{
+    margin-top: -40%;
+    margin-left: 23%;
+    color: #00ecfc;
+}
+.main1{
+    width: 314px;
+    height: 65px;
+    background: #dddddd;
+    position: absolute;
+    top: 37%;
+    left: 9%;
+}
+.main1 span{
+    color: #ffffff;
+}
+.main1 img{
+    margin-left:-93%;
+    margin-top:-2%;
+}
+.main1 p{
+
+    margin-left: -35%;
+    margin-top: -12%;
+}
+.t4 img {
+    width: 230px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right:-230px;
+}
+.t4 p{
+    font-size: 16px;
+
+    margin-left: 252px;
+    margin-top:-24px;
+}
+.t5 img{
+    width: 130px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right:-150px;
+}
+.t5 p{
+    font-size: 16px;
+    color:#00ecfc;
+    margin-left:58px;
+    margin-top:-23px;
+
+}
+#er{
+    position: absolute;
+    top: 50%;
+    left: 9%;
 }
