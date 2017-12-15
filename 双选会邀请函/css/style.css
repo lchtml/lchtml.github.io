@@ -1,0 +1,294 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+
+.bj{
+    width: 100%;
+}
+
+
+.tu{
+    width: 202px;
+    height: 40px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+
+.tu1{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    top: 0%;
+    left: 38%;
+}
+.s1 .tu2{
+    width: 320px;
+    height: 300px;
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    animation: zhuan 1s infinite;
+
+
+}
+@keyframes zhuan {
+    0% {
+        transform: rotate(18deg);
+    }
+    5%{
+        transform: rotate(36deg);
+
+    }
+    10% {
+        transform: rotate(54deg);
+    }
+    15% {
+        transform: rotate(72deg);
+    }
+
+
+    20% {
+        transform: rotate(90deg);
+    }
+    25% {
+        transform: rotate(108deg);
+    }
+
+    30% {
+        transform: rotate(126deg);
+    }
+    35% {
+        transform: rotate(144deg);
+    }
+
+    40% {
+        transform: rotate(162deg);
+
+    }
+    45% {
+           transform: rotate(180deg);
+       }
+
+    50% {
+        transform: rotate(198deg);
+    }
+    55% {
+        transform: rotate(216deg);
+    }
+
+    60% {
+        transform: rotate(234deg);
+    }
+    65% {
+        transform: rotate(252deg);
+    }
+
+    70% {
+        transform: rotate(270deg);
+    }
+    75% {
+        transform: rotate(288deg);
+    }
+
+    80% {
+        transform: rotate(306deg);
+    }
+    85% {
+        transform: rotate(324deg);
+    }
+
+    90% {
+        transform: rotate(342deg);
+
+    }
+    95% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+
+}
+.tp{
+    width: 318px;
+    position: absolute;
+    top: 23%;
+    left: 9%;
+}
+
+.tu3{
+    width: 165px;
+    position: absolute;
+    top: 27%;
+    left: 31%;
+}
+.tu4{
+    width: 571px;
+    height: 352px;
+    position: absolute;
+    top: 17%;
+    left: -57%;
+}
+
+
+
+
+
+#mp3Btn {
+    position: absolute;
+    right: 3%;
+    top: 2%;
+    z-index: 100;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.09);
+    border-radius: 50%;
+    border: 2px solid #292929;
+    text-align: center;
+    line-height: 47px;
+    cursor: pointer;
+    transform: rotateZ(0deg);
+    animation: mp3key 4s infinite linear running;
+    /*一直执行*/
+    /*animation-iteration-count: infinite;*/
+    /*匀速执行*/
+    /*animation-timing-function:linear;*/
+    /*默认运行动画*/
+    /*animation-play-state:running;*/
+}
+
+@keyframes mp3key {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+.swiper-button-next {
+    left: 50%;
+    right: auto;
+    top: auto;
+    bottom: 5%;
+    margin-left: -13.5px;
+    transform: rotateZ(-90deg);}
+
+#mp3Btn img {
+    width: 15px;
+}
+
+
+
+/*第二屏样式*/
+
+.s2 .tu1{
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:4%;
+    left: 38%;
+}
+.s2 .tu2{
+    width:185px;
+    height:50px;
+    position: absolute;
+    top: 19%;
+    left: 27%;
+}
+.s2 .tu3{
+    width:300px;
+    height:300px;
+    position: absolute;
+    top: 32%;
+    left: 11%;
+}
+
+
+/*3*/
+
+.s3 .tu1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:4%;
+    left: 38%;
+}
+.s3 .tu2{
+    width: 317px;
+    height: 42px;
+    position: absolute;
+    top: 21%;
+    left: 9%;
+}
+.s3 .tu3{
+    width: 310px;
+    height: 310px;
+    position: absolute;
+    top: 32%;
+    left: 10%;
+}
+.s4 .tu1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:4%;
+    left: 38%;
+}
+.s4 .tu2{
+    width: 110px;
+    height: 71px;
+    position: absolute;
+    top: 6%;
+    left: 37%;
+    animation: swing infinite;
+
+}
+.s4 .tu3{
+    width: 320px;
+    height: 255px;
+    position: absolute;
+    top: 29%;
+    left: 9%;
+
+}
+.s4 .tu4{
+    width: 45px;
+    height: 68px;
+    position: absolute;
+    top: 76%;
+    left: 81%;
+
+}
+.s4 .tu5{
+    width: 122px;
+    height: 86px;
+    position: absolute;
+    top: 64%;
+    left: 49%;
+}
+
+
+
+
+
