@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2684c23b-a926-4c3b-a2ee-30dac81af02d" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bj.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/musicIcon.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1.png" afterPath="$PROJECT_DIR$/img/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/2.png" afterPath="$PROJECT_DIR$/img/2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="lchtml.github.io.iws" />
@@ -39,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.045454547">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.5661157">
+              <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -135,7 +122,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="916" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20025349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -166,8 +153,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.045454547">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.5661157">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
           <folding />
         </state>
       </provider>
