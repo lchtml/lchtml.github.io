@@ -1,15 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>首页 在线预览项目</title>
+
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        body{
+            background: #000;
+        }
+        h1{
+            margin-bottom: 50px;
+            color: aqua;
+        }
+        p {
+            font-size: 18px;
+        }
+        .thumbnail img{
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
+<div class="container">
+    <h1 class="col-md-center">在线预览项目</h1>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="img/1.png" alt="">
+                <p>微场景</p>
+                <p><a href="https://lchtml.github.io/w%E5%BE%AE%E5%9C%BA%E6%99%AF/index.html" class="btn btn-primary" role="button" target="_blank">在线预览</a></p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="img/2.png" alt="">
+                <p>邀请函</p>
+                <p><a href="shuangxuanhui/index.html" class="btn btn-primary" role="button" target="_blank">在线预览</a></p>
+            </div>
+        </div>
+    </div>
 
-	<video width="100%" height="80%" autoplay>
-		<source src="img/1.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-	</video>
+
+</div>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
 </html>
