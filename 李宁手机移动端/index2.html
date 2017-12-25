@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>李宁篮球</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="shortcut icon" href="img/favicon (1).ico" />
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+<nav>
+    <a href="index.html" class="logo"><img src="img/logo.png" alt=""/></a>
+
+    <div class="search bar1">
+        <form>
+            <input type="text">
+            <img src="img/sousuoanniu.png" alt="" class="sousuo">
+        </form>
+        <img src="img/sandaogang.png" alt="" class="sdg">
+    </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active"><img src="img/shangpin1.jpg" alt="第一张"/></div>
+
+        <div class="item"><img src="img/shangpin.jpg" alt="第三张"/></div>
+        <div class="item"><img src="img/shangpin2.jpg" alt="第四张"/></div>
+        <div class="item"><img src="img/shangpin3.jpg" alt="第五张"/></div>
+        <div class="item"><img src="img/shangpin4.jpg" alt="第六张"/></div>
+
+    </div>
+    <a href="#myCarousel" data-slide="prev" class="carousel-control left"> <img src="img/zuo.png" class="yidong" alt=""/></a>
+    <a href="#myCarousel" data-slide="next" class="carousel-control right"><img src="img/you.png" class="yidong" alt=""/></a>
+</div>
+
+
+
+<div id="div">
+    <ul class="nav">
+        <li class="nav1"><a href="#">篮球</a></li>
+        <li><a href="#">跑步</a></li>
+        <li><a href="#">健身</a></li>
+        <li><a href="#">户外</a></li>
+        <li><a href="#">旅游</a></li>
+    </ul>
+    <div class="content">
+        <div class="con"><img src="img/xbn.jpg" alt=""></div>
+        <div><img src="img/xiao2.jpg" alt=""></div>
+        <div><img src="img/xiao45.png" alt=""></div>
+        <div><img src="img/xiaobanna%20(2).jpg" alt=""></div>
+        <div><img src="img/xiaobanna.jpg" alt=""></div>
+    </div>
+</div>
+
+
+<div id="collapsefive" class="panel-collapse collapse">
+    <div class="panel-body">
+        <p><a href="">联系我们</a>
+            <span>|</span>
+            <a href="">团购vip</a></p>
+    </div>
+</div>
+
+
+<div class="one">
+
+    <img src="img/xxx.jpg" alt="">
+
+
+
+    <img src="img/xxxxxx.jpg" alt="">
+</div>
+
+
+        <div class="footer">
+    <div class="qian"><p><img src="img/gh.png" alt=""/>京公网安备 11011202000593号
+        沪ICP备14035278号-2　©1990-2017
+        李宁（中国）体育用品有限公司版权所有®</p></div>
+
+</div>
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $('#myCarousel').carousel({
+        interval:1500,
+        pause:'hover'
+    });
+
+
+    var li=document.querySelectorAll(".nav li");
+    var btn=document.querySelectorAll(".content div");
+    var div=document.querySelector("#div");
+    var s=0;
+    var t;
+    function run(){
+        t=setInterval(function(){
+            for(var i=0;i<li.length;i++){
+                li[i].className="";
+                btn[i].className="";
+            }
+            if(s<li.length-1){
+                s++;
+            }else{
+                s=0;
+            }
+            li[s].className="nav1";
+            btn[s].className="con";
+
+        },1000)
+    }
+    run();
+    div.onmouseover=function(){
+        clearInterval(t);
+    };
+    div.onmouseout=function(){
+        run();
+    }
+</script>
+</body>
+</html>
