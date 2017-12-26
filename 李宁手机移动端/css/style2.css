@@ -1,10 +1,6 @@
 #div{
     width: 100%;
     height: 30%;
-    background: #ffff00;
-    margin:auto;
-
-
 }
 .nav li{
     float: left;
@@ -34,8 +30,7 @@
 }
 .content div{
     width:100%;
-    height: 200px;
-    background-color:darkgray;
+    height: 339px;
     color:white;
     font-size:28px;
     display: none;
@@ -47,11 +42,30 @@
 .content div.con{
     display: block;
 }
-.one img{
-    width:47%;
-    padding: 2%;
+.quan{
+    width: 100%;
+    height:779px;
+    background:#777777;
+
+}
+.quan div{
+
+    width: 50%;
+    float: left;
+    margin-left: 19px;
+    margin-right: -19px;
     margin-top: 10px;
-
+}
+.quan img{
+    width: 90%;
+}
+.quan p{
+    font-size: 50px;
+    margin-left:6%;
+}
+span{
+    margin-left:6%;
+   font-size: 30px;
 }
 
 
@@ -65,8 +79,3 @@
 
 
 
-
-
-.footer{
-    margin-top: 20%;
-}
