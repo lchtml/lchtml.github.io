@@ -1,8 +1,8 @@
 
 .logo{
     width:18%;
-    margin-top:2%;
-    margin-left: 1%;
+    margin-top:3%;
+    margin-left:3%;
 }
 
 ul{
@@ -23,6 +23,7 @@ nav ul li img{
 nav ul li a span{
     font-size: 30px;
     margin-left: 5px;
+    color: #ffffff;
 }
 .carousel-indicators .active{
     background:red;
@@ -36,13 +37,44 @@ nav ul li a span{
 }
 #wenzi{
     width: 100%;
-    background: #ffff00;
+    height: 480px;
 }
-#wenzi p{
-    font-size: 45px;
-    padding: 15px;
+#wenzi{
+    border-bottom:2px solid #ccc;
+}
+.wenzi1{
+    margin-left: 24px;
+    padding: 21px;
+    font-size:43px;
+    width: 95%;
+
 }
 .wenzi2{
-    font-size: 38px;
+    font-size: 39px;
     padding: 10px;
+    color:red;
+    margin-left:3%;
+
+
+}
+.wenzi3{
+    font-size:45px;
+    color: #786e6e;
+    margin-left:30px;
+}
+.wenzi4{
+    float: left;
+    font-size:60px;
+    color:red;
+    margin-top: 25px;
+    margin-left: 30px;
+
+}
+.wenzi5{
+    font-size:45px;
+    margin-left: 30px;
+    padding: 20px;
+    position: absolute;
+    top: 85%;
+    left: 32%;
 }
