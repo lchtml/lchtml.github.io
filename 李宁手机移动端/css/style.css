@@ -1,87 +1,80 @@
-nav{
-    width: 100%;
-    height:133px;
+/*nav*/
+
+.navbar-brand > img {
+    display: block;
+    width: 60px;
+    ;}
+
+.navbar-header{
     background: #000;
-
 }
-
-.logo img{
-    position: absolute;
-    top: 2%;
-    left: 5%;
-    width: 158px;
-}
-/*������*/
-form{
-    position: absolute;
-    top:2%;
-    left:33%;
-}
-input{
-    width: 278px;
-    height: 79px;
-    border: 2px solid red;
-    border-radius:10px;
-
-}
-.sousuo{
-    width: 110px;
-    margin-left: -20px;
-}
-
-.sdg{
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: #000;
-    width:91px;
-    position: absolute;
-    top:2%;
-    right:8%;
 }
+.san img{
+    width: 30px;
+}
+#myCarousel{
+    margin-top: -22px;
+}
+
+
+
+
+
+
+
+
+
+
 .item img{
     width: 100%;
 }
 .yidong{
     margin-top:188%;
-    width:70px;
+    width:33px;
 }
 
 
 
 #bj,#bj2,#bj3,#bj4{
     width: 100%;
-    height:100px;
+    height:50px;
     background: #000;
     color: #ffffff;
 
 }
 #bj a,#bj2 a,#bj3 a,#bj4 a{
-    font-size:60px;
+    font-size:20px;
     text-align:center;
     font-weight:bold;
     text-decoration:none;
 }
 .pp{
-    width: 460px;
+    width:169px;
     padding:2px;
+    margin-top: 2px;
 
 
 }
 .btn1,.btn2,.btn3,.btn4{
+    width:20px;
     margin-left:86%;
     margin-top:-15%;
 }
 
 .pp1{
-    width:186px;
+    width:65px;
     padding:2px;
     margin-top: 10px;
 }
 .pp2{
-    width:313px;
+    width:111px;
     margin-top: 10px;
 }
 
 .pp3{
-    width:472px;
+    width:169px;
     margin-top: 10px;
 }
 p {
@@ -89,27 +82,27 @@ p {
 }
 #bai,#bai2,#bai3{
     width: 100%;
-    height:100px;
+    height:50px;
     background: #ffffff;
     color: #0f0f0f;
     border-bottom: 3px solid #0f0f0f;
 
 }
 #bai a,#bai2 a,#bai3 a{
-    font-size:50px;
+    font-size:20px;
     text-align:center;
     font-weight:inherit;
     text-decoration:none;
 }
 .panel-body p{
-    font-size:50px;
+    font-size:20px;
     text-align:center;
     font-weight:inherit;
     text-decoration:none;
 }
 .footer{
     width: 100%;
-    height: 200px;
+    height: 130px;
     background: #000;
     color: #ffffff;
     font-size: 30px;
@@ -120,6 +113,7 @@ p {
     margin-left: 20%;
     padding-top:4%;
     text-align:center;
+    font-size:4vw;
 }
 
 

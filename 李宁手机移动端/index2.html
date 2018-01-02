@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>李宁篮球</title>
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/style.css"/>
@@ -9,17 +13,34 @@
     <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
-<nav>
-    <a href="index.html" class="logo"><img src="img/logo.png" alt=""/></a>
+<div id="bac">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="san"><img src="img/sandaogang.png" alt=""></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
 
-    <div class="search bar1">
-        <form>
-            <input type="text">
-            <img src="img/sousuoanniu.png" alt="" class="sousuo">
-        </form>
-        <img src="img/sandaogang.png" alt="" class="sdg">
-    </div>
-</nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="点击搜索">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>
+
+        </div><!-- /.container-fluid -->
+            </div>
+    </nav>
+
+
+</div>
 
 <div id="myCarousel" class="carousel slide">
     <ol class="carousel-indicators">
@@ -51,10 +72,10 @@
 <div id="div">
     <ul class="nav">
         <li class="nav1"><a href="#">篮球</a></li>
-        <li><a href="#">跑步</a></li>
-        <li><a href="#">健身</a></li>
-        <li><a href="#">户外</a></li>
-        <li><a href="#">旅游</a></li>
+        <li class="li"><a href="#">跑步</a></li>
+        <li class="li"><a href="#">健身</a></li>
+        <li class="li"><a href="#">户外</a></li>
+        <li class="li"><a href="#">旅游</a></li>
     </ul>
     <div class="content">
         <div class="con"><img src="img/xbn.jpg" alt=""></div>
@@ -75,39 +96,34 @@
 </div>
 <div class="quan">
     <a href="index3.html">
-    <div> <img src="img/xxx.jpg" alt="">
-    <p>李宁音速5低帮版<br></p></a>
+    <div class="enen"> <img src="img/xxx.jpg" alt="">
+    <p>李宁音速5低帮版<br></p>
     <span>ABAM200</span>
-    </div>
-    <div> <img src="img/xxxxxx.jpg" alt="">
+    </div></a>
+    <div class="enen"> <img src="img/xxxxxx.jpg" alt="">
     <p>李宁音速御帅11<br></p>
     <span>ABAM200</span>
 </div>
-    <div> <img src="img/xxxxxxxxxxxxxxx.jpg" alt="">
+    <div class="enen"> <img src="img/xxxxxxxxxxxxxxx.jpg" alt="">
     <p>李宁韦德裂变13<br></p>
     <span>ABAM200</span>
 </div>
-    <div> <img src="img/xxxxxxxxxxxxxxxxxxxxxx.jpg" alt="">
+    <div class="enen"> <img src="img/xxxxxxxxxxxxxxxxxxxxxx.jpg" alt="">
     <p>李宁伟德全天2<br></p>
     <span>ABAM200</span>
 </div>
+    </div>
 
-</div>
+    <div class="footer">
+        <div class="qian"><p><img src="img/gh.png" alt=""/>京公网安备 11011202000593号
+            沪ICP备14035278号-2　©1990-2017
+            李宁（中国）体育用品有限公司版权所有®</p></div>
 
-
-
-
-        <div class="footer">
-    <div class="qian"><p><img src="img/gh.png" alt=""/>京公网安备 11011202000593号
-        沪ICP备14035278号-2　©1990-2017
-        李宁（中国）体育用品有限公司版权所有®</p></div>
-
-</div>
+    </div>
 
 
 
-
-<script src="js/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script>
     $('#myCarousel').carousel({
@@ -144,6 +160,8 @@
     div.onmouseout=function(){
         run();
     }
+
+
 </script>
 </body>
 </html>
