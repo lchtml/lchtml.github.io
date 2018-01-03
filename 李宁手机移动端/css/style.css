@@ -17,7 +17,9 @@
 #myCarousel{
     margin-top: -22px;
 }
-
+.navbar-default .navbar-toggle {
+    border-color: #000;
+}
 
 
 

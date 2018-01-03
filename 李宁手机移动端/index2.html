@@ -13,34 +13,58 @@
     <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
-<div id="bac">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="san"><img src="img/sandaogang.png" alt=""></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
-            </div>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="san"><img src="img/sandaogang.png" alt=""></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+        </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">在线商城 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">李宁在线</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">列表 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">系列</a></li>
+                        <li><a href="#">男子</a></li>
+                        <li><a href="#">女子</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">男童</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">女童</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="点击搜索">
+                </div>
+                <button type="submit" class="btn btn-default">搜索</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">李宁官方</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">李宁系列 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">李宁旗下</a></li>
+                        <li><a href="#">李宁</a></li>
+                        <li><a href="#">乐途</a></li>
+                        <li role="separator" class="divider">    </li>
+                        <li><a href="#">红双喜</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
 
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="点击搜索">
-                    </div>
-                    <button type="submit" class="btn btn-default">搜索</button>
-                </form>
-
-        </div><!-- /.container-fluid -->
-            </div>
-    </nav>
-
-
-</div>
 
 <div id="myCarousel" class="carousel slide">
     <ol class="carousel-indicators">
@@ -69,23 +93,6 @@
 
 
 
-<div id="div">
-    <ul class="nav">
-        <li class="nav1"><a href="#">篮球</a></li>
-        <li class="li"><a href="#">跑步</a></li>
-        <li class="li"><a href="#">健身</a></li>
-        <li class="li"><a href="#">户外</a></li>
-        <li class="li"><a href="#">旅游</a></li>
-    </ul>
-    <div class="content">
-        <div class="con"><img src="img/xbn.jpg" alt=""></div>
-        <div><img src="img/xiao2.jpg" alt=""></div>
-        <div><img src="img/xiao45.png" alt=""></div>
-        <div><img src="img/xiaobanna%20(2).jpg" alt=""></div>
-        <div><img src="img/xiaobanna.jpg" alt=""></div>
-    </div>
-</div>
-
 
 <div id="collapsefive" class="panel-collapse collapse">
     <div class="panel-body">
@@ -113,6 +120,14 @@
     <span>ABAM200</span>
 </div>
     </div>
+<div id="main">
+    <div class="jiti"><img src="img/xbn.jpg" alt="">   <p>韦德之道</p></div>
+    <div class="jiti"><img src="img/xiao2.jpg" alt=""> <p>2017李宁城市联赛</p></div>
+    <div class="jiti"><img src="img/xiao45.png" alt=""><p>运动健身</p></div>
+    <div class="jiti"><img src="img/xiaobanna%20(2).jpg" alt=""> <p>李宁跑步</p></div>
+    <div class="jiti"><img src="img/xiaobanna.jpg" alt="">  <p>韦德中国行</p></div>
+
+</div>
 
     <div class="footer">
         <div class="qian"><p><img src="img/gh.png" alt=""/>京公网安备 11011202000593号
@@ -130,37 +145,6 @@
         interval:1500,
         pause:'hover'
     });
-
-
-    var li=document.querySelectorAll(".nav li");
-    var btn=document.querySelectorAll(".content div");
-    var div=document.querySelector("#div");
-    var s=0;
-    var t;
-    function run(){
-        t=setInterval(function(){
-            for(var i=0;i<li.length;i++){
-                li[i].className="";
-                btn[i].className="";
-            }
-            if(s<li.length-1){
-                s++;
-            }else{
-                s=0;
-            }
-            li[s].className="nav1";
-            btn[s].className="con";
-
-        },1000)
-    }
-    run();
-    div.onmouseover=function(){
-        clearInterval(t);
-    };
-    div.onmouseout=function(){
-        run();
-    }
-
 
 </script>
 </body>
